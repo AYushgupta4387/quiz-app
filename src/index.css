@@ -258,3 +258,22 @@ progress {
   font-size: inherit;
   padding: 0.8rem;
 }
+
+@media screen and (max-width: 600px) {
+  .app-header {
+    width: 32rem;
+  }
+
+  .main {
+    width: 32rem;
+    text-align: center;
+  }
+
+  .start {
+    text-align: center;
+  }
+
+  .result {
+    padding: 2rem;
+  }
+}
